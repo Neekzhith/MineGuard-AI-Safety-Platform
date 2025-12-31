@@ -33,77 +33,105 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 * **Security Standards:** Implements **JSON Web Tokens (JWT)** and **Bcrypt** hashing for robust session management.
 
 ---
-## 📸 Interface Gallery (Cropped Previews)
+## 📸 Interface Gallery
 
 <table width="100%">
 <tr>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Homepage.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>Landing Page</strong>
+  <strong>Landing Page</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Homepage.png" width="100%">
+  </details>
 </td>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Floating_ChatBot_Widget.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>Floating AI Widget</strong>
+  <strong>Floating AI Widget</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Floating_ChatBot_Widget.png" width="100%">
+  </details>
 </td>
 
 </tr>
 <tr>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Chatbot.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>AI Support Hub</strong>
+  <strong>AI Support Hub</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Chatbot.png" width="100%">
+  </details>
 </td>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Dashboard.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>Safety Dashboard</strong>
+  <strong>Safety Dashboard</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Dashboard.png" width="100%">
+  </details>
 </td>
 
 </tr>
 <tr>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Devices.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>Device Telemetry</strong>
+  <strong>Device Telemetry</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Devices.png" width="100%">
+  </details>
 </td>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Login.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>Secure Login</strong>
+  <strong>Secure Login</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Login.png" width="100%">
+  </details>
 </td>
 
 </tr>
 <tr>
 
 <td width="50%" align="center">
-  <div style="height:220px; overflow:hidden; border-radius:12px;">
-    <img src="Register.png"
-         style="width:100%; height:100%; object-fit:cover; object-position:top;">
-  </div>
-  <strong>User Registration</strong>
+  <strong>User Registration</strong><br><br>
+
+  <details>
+    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
+      👁️ View Preview
+    </summary>
+    <br><br>
+    <img src="Register.png" width="100%">
+  </details>
 </td>
 
-<td></td>
+<td width="50%"></td>
 
 </tr>
 </table>
