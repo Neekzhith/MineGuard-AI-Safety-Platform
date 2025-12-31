@@ -35,107 +35,38 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 ---
 ## 📸 Interface Gallery
 
-<table width="100%">
-<tr>
+### Landing Page
+[![Landing Page](Homepage.png)](Homepage.png)
 
-<td width="50%" align="center">
-  <strong>Landing Page</strong><br><br>
+---
 
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Homepage.png" width="100%">
-  </details>
-</td>
+### Floating AI Widget
+[![Floating AI Widget](Floating_ChatBot_Widget.png)](Floating_ChatBot_Widget.png)
 
-<td width="50%" align="center">
-  <strong>Floating AI Widget</strong><br><br>
+---
 
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Floating_ChatBot_Widget.png" width="100%">
-  </details>
-</td>
+### AI Support Hub
+[![AI Support Hub](Chatbot.png)](Chatbot.png)
 
-</tr>
-<tr>
+---
 
-<td width="50%" align="center">
-  <strong>AI Support Hub</strong><br><br>
+### Safety Dashboard
+[![Safety Dashboard](Dashboard.png)](Dashboard.png)
 
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Chatbot.png" width="100%">
-  </details>
-</td>
+---
 
-<td width="50%" align="center">
-  <strong>Safety Dashboard</strong><br><br>
+### Device Telemetry
+[![Device Telemetry](Devices.png)](Devices.png)
 
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Dashboard.png" width="100%">
-  </details>
-</td>
+---
 
-</tr>
-<tr>
+### Secure Login
+[![Secure Login](Login.png)](Login.png)
 
-<td width="50%" align="center">
-  <strong>Device Telemetry</strong><br><br>
+---
 
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Devices.png" width="100%">
-  </details>
-</td>
-
-<td width="50%" align="center">
-  <strong>Secure Login</strong><br><br>
-
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Login.png" width="100%">
-  </details>
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" align="center">
-  <strong>User Registration</strong><br><br>
-
-  <details>
-    <summary style="cursor:pointer; padding:8px 14px; border:1px solid #ccc; border-radius:6px; display:inline-block;">
-      👁️ View Preview
-    </summary>
-    <br><br>
-    <img src="Register.png" width="100%">
-  </details>
-</td>
-
-<td width="50%"></td>
-
-</tr>
-</table>
-
+### User Registration
+[![User Registration](Register.png)](Register.png)
 ---
 
 ## 📂 Project Structure
