@@ -1,63 +1,126 @@
-# MineGuard: Smart Mining Safety Assistant ⛑️
+# MineGuard: AI-Integrated Mining Safety Platform ⛑️
 
-This project implements a full-stack AI-integrated platform designed to enhance safety in mining environments. It features a real-time dashboard for monitoring vital statistics and a Generative AI chatbot trained on safety protocols to assist workers in emergencies.
+**MineGuard** is a full-stack MERN application designed for mining safety monitoring.
 
-**Status:** Completed
-**Tech Stack:** MERN Stack (MongoDB, Express, React, Node.js) / Google Gemini AI / UiPath
+Unlike traditional static prototypes, this project features a **Device Simulation Engine**: it allows users to register "virtual" devices, which then generate realistic, randomized telemetry (Heart Rate, Gas Levels, Battery) to demonstrate how a real-time safety dashboard would function in a live scenario.
 
-## 🌐 Overview
+---
 
-Mining operations are fraught with risks, requiring constant vigilance and immediate access to safety information. **MineGuard** addresses this by providing a centralized digital service platform. It combines real-time data visualization with an intelligent AI assistant capable of classifying emergency levels and providing instant, context-aware safety guidance. The system is rigorously tested using UiPath automation to ensure reliability.
+## 🚀 Key Features
 
-## 💻 Interface Preview
+### 1. 🌗 Dynamic Dark & Light Theme
+The application adapts to the user's environment with a built-in **Theme Toggle**:
+* **Dark Mode:** Optimized for low-light underground control centers.
+* **Light Mode:** Designed for standard office monitoring.
 
-*The MineGuard Landing Page & Dashboard, featuring real-time monitoring and safety alerts.*
+### 2. 🤖 Dual-Mode AI Safety Assistant (Google Gemini)
+An intelligent safety expert is integrated directly into the workflow:
+* **Floating Widget:** A global chat button on the home page for instant, on-the-fly assistance.
+* **Dedicated Support Hub:** A full-screen interface for resolving complex safety protocols and troubleshooting hardware.
 
-![Dashboard Preview](Dashboard_Preview.png)
+### 3. 🖥️ Real-Time Safety Dashboard
+The central command center provides instant visibility into worker status:
+* **Live Visualization:** Dynamic progress bars and indicators for Temperature, Heart Rate, and Gas Levels.
+* **Smart Alerting:** The system automatically flags "Critical" or "High" severity readings with visual cues to prompt immediate action.
 
-## ⚙️ System Architecture
+### 4. 📡 Device Simulation & Management
+Designed for flexibility, the platform includes a **Virtual Device Engine**:
+* **Add Device:** Register new wearable units to the fleet via a secure dashboard.
+* **Data Stream:** The system generates realistic telemetry streams for registered devices, allowing administrators to test safety logic and alert responsiveness without requiring physical hardware connections.
 
-The solution is built on a robust 3-tier architecture:
+### 5. 🔐 Secure Authentication
+* **Enterprise-Grade Access:** Secure **Login** and **Registration** flows protect sensitive operational data.
+* **Security Standards:** Implements **JSON Web Tokens (JWT)** and **Bcrypt** hashing for robust session management.
 
-* **Frontend (React + Vite):** A responsive Single Page Application (SPA) dashboard that visualizes worker status, environmental data, and hosts the chatbot interface.
-* **Backend (Node.js + Express):** Handles API requests, user authentication (JWT), and manages the secure integration with the AI engine.
-* **AI Engine (Google Gemini):** A generative AI model integrated into the backend to process safety queries, analyze sentiment, and provide emergency protocols.
-* **Database (MongoDB):** Stores user profiles, safety logs, and simulated device data.
+---
 
-## 🔄 Functionality
+## 📸 Interface Gallery
 
-The platform delivers three core functionalities:
+### 1. Public Interface
 
-1.  **AI Safety Chatbot:** Workers can ask natural language questions regarding safety procedures. The system uses Google Gemini to classify the "Emergency Tier" and generate a specific, grounded response.
-2.  **Live Monitoring Dashboard:** Displays simulated telemetry data from wearable devices, including heart rate, battery levels, and gas sensor readings.
-3.  **Automated Testing:** The core workflows (Login, Registration, Chatbot Response) are validated using **UiPath** RPA bots to simulate real-world usage scenarios.
+| Landing Page | Floating AI Widget | Dedicated AI Support Page |
+|--------------|---------------------|---------------------------|
+| <img src="Homepage.png" width="100%"> | <img src="Floating_ChatBot_Widget.png" width="100%"> | <img src="Chatbot.png" width="100%"> |
 
-## 📐 Architecture Diagram
+### 2. Authentication
 
-Visual representation of the data flow between the User, Frontend, Backend, and AI services.
+| Secure Login | User Registration |
+|--------------|-------------------|
+| <img src="Login.png" width="100%"> | <img src="Register.png" width="100%"> |
 
-![Architecture Diagram](Architecture_Diagram.png)
+### 3. Safety Monitoring
 
-## 🛠 Requirements
+| Command Center (Dark Mode) | Device Telemetry & Graphs |
+|----------------------------|---------------------------|
+| <img src="Dashboard.png" width="100%"> | <img src="Devices.png" width="100%"> |
 
-To run this project locally, you will need:
+---
 
-* **Runtime:** Node.js (v18.0+) and npm.
-* **API Keys:** Google Gemini API Key and MongoDB Connection URI (configured in `.env`).
-* **Testing:** UiPath Studio (Optional, for running automation scripts).
+## 🏗️ System Architecture
 
-## 🚀 Setup & Execution
+<div align="center">
+  <img src="Architecture_Diagram.png" width="80%" alt="System Architecture Diagram">
+</div>
 
-1.  **Install Dependencies:** Run `npm run install:all` in the root directory to install packages for both backend and frontend.
-2.  **Start Application:** Run `npm run start:dev` to launch both servers concurrently.
-    * **Frontend:** `http://localhost:3000`
-    * **Backend:** `http://localhost:5000`
+---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
-* `backend/` — Server-side logic, API routes, and AI integration.
-* `frontend/` — Client-side React application and UI components.
-* `package.json` — Root configuration scripts.
-* `Dashboard_Preview.png` — Screenshot of the web interface.
-* `Architecture_Diagram.png` — System design visual.
-* `README.md` — Project documentation.
+```
+etprojectcode/
+├── backend/
+│   ├── models/       # Database Schemas (User, Device, Record)
+│   ├── routes/       # API Endpoints (Auth, Chatbot, Devices)
+│   ├── middleware/   # Security & Auth Middleware
+│   └── index.js      # Server Entry Point
+├── frontend/
+│   ├── src/
+│   │   ├── components/  # Reusable UI (Navbar, Alerts, Charts)
+│   │   ├── pages/       # Core Views (Home, Dashboard, Chatbot)
+│   │   ├── context/     # Global State (Theme)
+│   │   └── api/         # Axios Configuration
+│   └── vite.config.js
+└── package.json      # Root Dependencies
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js, Vite, Tailwind CSS
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB & Mongoose
+* **AI Engine:** Google Gemini API
+* **Visualization:** Recharts
+
+---
+
+## ⚙️ Execution Instructions
+
+**Prerequisites:** Node.js (v18+) and MongoDB.
+
+1. **Install Dependencies:**
+   Run the setup script from the root directory:
+   ```bash
+   npm run install:all
+   ```
+
+2. **Environment Configuration:**
+   Create a `.env` file in the `backend/` folder based on the example provided:
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   GEMINI_API_KEY=your_google_api_key
+   JWT_SECRET=your_jwt_secret
+   ```
+
+3. **Run the Platform:**
+   Start the frontend and backend concurrently:
+   ```bash
+   npm run start:dev
+   ```
+   - **Web Interface:** http://localhost:3000
+   - **API Server:** http://localhost:5000
+
+---
+
+> **ℹ️ Note:** This is a web-based simulator demonstrating full-stack logic and AI integration. All data is synthetic and generated for testing purposes.
