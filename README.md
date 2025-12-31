@@ -40,19 +40,19 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 
 | Landing Page | Floating AI Widget | Dedicated AI Support Page |
 |--------------|---------------------|---------------------------|
-| <img src="Homepage.png" width="100%"> | <img src="Floating_ChatBot_Widget.png" width="100%"> | <img src="Chatbot.png" width="100%"> |
+| <img src="Homepage.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Floating_ChatBot_Widget.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Chatbot.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
 
 ### 2. Authentication
 
 | Secure Login | User Registration |
 |--------------|-------------------|
-| <img src="Login.png" width="100%"> | <img src="Register.png" width="100%"> |
+| <img src="Login.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Register.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
 
 ### 3. Safety Monitoring
 
 | Command Center (Dark Mode) | Device Telemetry & Graphs |
 |----------------------------|---------------------------|
-| <img src="Dashboard.png" width="100%"> | <img src="Devices.png" width="100%"> |
+| <img src="Dashboard.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Devices.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
 
 ---
 
