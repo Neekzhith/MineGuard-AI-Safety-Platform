@@ -33,56 +33,80 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 * **Security Standards:** Implements **JSON Web Tokens (JWT)** and **Bcrypt** hashing for robust session management.
 
 ---
+## 📸 Interface Gallery (Cropped Previews)
 
-## 📸 Interface Gallery
+<table width="100%">
+<tr>
 
-### 1. Public Interface
-<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Homepage.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Landing Page</strong></p>
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Homepage.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
   </div>
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Floating_ChatBot_Widget.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Floating AI Widget</strong></p>
-  </div>
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Chatbot.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Dedicated AI Support Page</strong></p>
-  </div>
-</div>
+  <strong>Landing Page</strong>
+</td>
 
-### 2. Authentication
-<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Login.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Secure Login</strong></p>
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Floating_ChatBot_Widget.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
   </div>
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Register.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>User Registration</strong></p>
+  <strong>Floating AI Widget</strong>
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Chatbot.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
   </div>
-</div>
+  <strong>AI Support Hub</strong>
+</td>
 
-### 3. Safety Monitoring
-<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Dashboard.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Command Center (Dark Mode)</strong></p>
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Dashboard.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
   </div>
-  <div style="flex: 0 0 300px; text-align: center;">
-    <img src="Devices.png" style="width: 100%; height: auto; max-height: 400px; object-fit: contain;">
-    <p><strong>Device Telemetry & Graphs</strong></p>
+  <strong>Safety Dashboard</strong>
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Devices.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
   </div>
-</div>
+  <strong>Device Telemetry</strong>
+</td>
 
----
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Login.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
+  </div>
+  <strong>Secure Login</strong>
+</td>
 
-## 🏗️ System Architecture
+</tr>
+<tr>
 
-<div align="center">
-  <img src="Architecture_Diagram.png" width="80%" alt="System Architecture Diagram">
-</div>
+<td width="50%" align="center">
+  <div style="height:220px; overflow:hidden; border-radius:12px;">
+    <img src="Register.png"
+         style="width:100%; height:100%; object-fit:cover; object-position:top;">
+  </div>
+  <strong>User Registration</strong>
+</td>
+
+<td></td>
+
+</tr>
+</table>
 
 ---
 
