@@ -35,38 +35,27 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 ---
 ## 📸 Interface Gallery
 
-### Landing Page
-[![Landing Page](Homepage.png)](Homepage.png)
+### 🌐 Public Interface
+- [Landing Page](Homepage.png)
+- [Floating AI Widget](Floating_ChatBot_Widget.png)
+- [AI Support Hub](Chatbot.png)
+
+### 🔐 Authentication
+- [Secure Login](Login.png)
+- [User Registration](Register.png)
+
+### 🖥️ Safety Monitoring
+- [Safety Dashboard](Dashboard.png)
+- [Device Telemetry](Devices.png)
 
 ---
 
-### Floating AI Widget
-[![Floating AI Widget](Floating_ChatBot_Widget.png)](Floating_ChatBot_Widget.png)
+## 🏗️ System Architecture
 
----
+<div align="center">
+  <img src="Architecture_Diagram.png" width="80%" alt="System Architecture Diagram">
+</div>
 
-### AI Support Hub
-[![AI Support Hub](Chatbot.png)](Chatbot.png)
-
----
-
-### Safety Dashboard
-[![Safety Dashboard](Dashboard.png)](Dashboard.png)
-
----
-
-### Device Telemetry
-[![Device Telemetry](Devices.png)](Devices.png)
-
----
-
-### Secure Login
-[![Secure Login](Login.png)](Login.png)
-
----
-
-### User Registration
-[![User Registration](Register.png)](Register.png)
 ---
 
 ## 📂 Project Structure
