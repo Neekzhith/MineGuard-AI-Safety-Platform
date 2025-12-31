@@ -37,22 +37,44 @@ Designed for flexibility, the platform includes a **Virtual Device Engine**:
 ## 📸 Interface Gallery
 
 ### 1. Public Interface
-
-| Landing Page | Floating AI Widget | Dedicated AI Support Page |
-|--------------|---------------------|---------------------------|
-| <img src="Homepage.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Floating_ChatBot_Widget.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Chatbot.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
+<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Homepage.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Landing Page</strong></p>
+  </div>
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Floating_ChatBot_Widget.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Floating AI Widget</strong></p>
+  </div>
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Chatbot.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Dedicated AI Support Page</strong></p>
+  </div>
+</div>
 
 ### 2. Authentication
-
-| Secure Login | User Registration |
-|--------------|-------------------|
-| <img src="Login.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Register.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
+<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Login.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Secure Login</strong></p>
+  </div>
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Register.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>User Registration</strong></p>
+  </div>
+</div>
 
 ### 3. Safety Monitoring
-
-| Command Center (Dark Mode) | Device Telemetry & Graphs |
-|----------------------------|---------------------------|
-| <img src="Dashboard.png" width="90%" style="max-height: 300px; object-fit: contain;"> | <img src="Devices.png" width="90%" style="max-height: 300px; object-fit: contain;"> |
+<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0;">
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Dashboard.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Command Center (Dark Mode)</strong></p>
+  </div>
+  <div style="flex: 0 0 250px; text-align: center;">
+    <img src="Devices.png" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+    <p><strong>Device Telemetry & Graphs</strong></p>
+  </div>
+</div>
 
 ---
 
